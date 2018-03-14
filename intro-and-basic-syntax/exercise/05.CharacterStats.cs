@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ЦхарацтерСтатс
-{
+//Namespace deleted
     class Program
     {
         static void Main(string[] args)
-        {
+        {	//Here we read some properties of a character
             string name = Console.ReadLine();
             int health = int.Parse(Console.ReadLine());
             int maxHealth = int.Parse(Console.ReadLine());
@@ -20,4 +19,3 @@ namespace ЦхарацтерСтатс
             Console.WriteLine("Energy: |" + new string('|', energy) + new string('.', maxEnergy - energy) + "|");
         }
     }
-}
