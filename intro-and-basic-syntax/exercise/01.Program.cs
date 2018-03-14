@@ -11,7 +11,7 @@ namespace DebitCardNumber
         static void Main(string[] args)
         {	
             // On the next four lines, we are reading integer numbers from the console
-            int n1 = int.Parse(Console.ReadLine());
+            int s = int.Parse(Console.ReadLine());
             int n2 = int.Parse(Console.ReadLine());
             int n3 = int.Parse(Console.ReadLine());
             int n4 = int.Parse(Console.ReadLine());
