@@ -1,6 +1,6 @@
 using System;
 class Program
-{
+{ //comment here
     static void Main()
     {
         double width = double.Parse(Console.ReadLine());
