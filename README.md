@@ -1,12 +1,14 @@
 # programming-fundamentals
 Programming  Fundamentals Repository
 
+
 ### Problem 1.             
 Debit Card Number
 
 Write a program, which receives **4****integers**
 on the console and **prints them** in **4-digit debit card format**. See the
 examples below for the appropriate formatting.
+
 
 #### Examples
 
@@ -54,7 +56,77 @@ examples below for the appropriate formatting.
 
 0812 0321 0123 0022
 
----------------------------------------------------------
+----------------------------------------------------------------------
+
+
+
+### Problem 2.        
+Miles to Kilometers
+
+Write a program, which **converts****miles** to **kilometers**. **Format** the output
+to the **2
+
+nd decimal place**.
+
+Note: **1 mile ==
+1.60934 kilometers**
+
+------------------------------------------------------------------
+
+### Problem 3.
+Rectangle Area
+
+Write a program, which calculates a **rectangleӳ area**, based on its **width**
+and **height**. The **width** and **height** come as
+floating point numbers on the console, **formatted
+to the 2
+
+nd character after the decimal point**.
+
+#### Examples
+
+ 
+
+**Input**
+
+ 
+
+**Output**
+
+ 
+
+2
+
+7
+
+ 
+
+14.00
+
+ 
+
+7
+
+8
+
+ 
+
+56.00
+
+ 
+
+12.33
+
+5
+
+ 
+
+61.65
+
+
+
+------------------------------------------------------------------
+
 ### Problem 4.             
 Beverage Labels
 
@@ -75,8 +147,12 @@ Energy content – **integer**, **suffixed** by “**kcal**” (e.g.
 
 ·       
 Sugar content – **integer**, **suffixed** by “**g**” (e.g. “**30g**”) 
+ 
 
-#### Examples
+**Output**
+
+ 
+
 
  
 
@@ -88,21 +164,6 @@ Sugar content – **integer**, **suffixed** by “**g**” (e.g. “**30g**”)
 
  
 
-Nuka-Cola
-
-220
-
-300
-
-70
-
- 
-
-220ml Nuka-Cola:
-
-660kcal, 154g sugars
-
- 
 
  
 
@@ -113,6 +174,28 @@ Nuka-Cola
 **Output**
 
  
+
+60
+
+ 
+
+96.56
+
+ 
+
+1
+
+ 
+
+1.61
+
+ 
+
+52.1113
+
+ 
+
+83.86
 
 Ice Cold Nuka-Cola
 
@@ -129,6 +212,64 @@ Ice Cold Nuka-Cola
 875kcal, 162.5g sugars
 
  
+=======
+Loogi
+
+8
+
+20
+
+2
+
+14
+
+---------------------------------------------------------------------
+
+### Problem 5.
+Character Stats
+
+Write a program, which **displays
+information** about a video game character. You will receive their **name**, **current health**, **maximum
+health**, **current energy** and **maximum energy **on separate lines. The **current** values will **always** be valid (**equal or lower** than their respective **max** values). Print them in the format as per the examples.
+>>>>>>> ae887e48c8d6d03e20078820cca59c95b7b69591
+
+#### Examples
+
+ 
+
+**Input**
+
+ 
+
+**Output**
+
+
+
+Health: ||||||.....|
+
+Energy: ||||||||||.|
+
+ 
+
+Bauser
+
+10
+
+10
+
+10
+
+10
+
+ 
+
+Name: Bauser
+
+Health: ||||||||||||
+
+Energy: ||||||||||||
+
+�
 
  
 
@@ -140,16 +281,46 @@ Ice Cold Nuka-Cola
 
  
 
-Nuka-Cola Quantum
-
-350
-
-600
-
-140
+**�**
 
  
 
-350ml Nuka-Cola Quantum:
+**Input**
 
-2100kcal, 490g sugars
+ 
+
+**Output**
+
+ 
+Name: Loogi
+
+Health: |||||||||............|
+
+Energy: |||............|
+
+ 
+
+Toad
+
+0
+
+5
+
+0
+
+10
+
+ 
+
+Name: Toad
+
+Health: |.....|
+
+Energy: |..........|
+
+#### Hints
+
+You can print a character **multiple** times, using new string(character,
+count).
+
+
