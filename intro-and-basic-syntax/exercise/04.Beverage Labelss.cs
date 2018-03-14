@@ -12,7 +12,7 @@ namespace _04.Beverage_Labelss
             // On the first line we read the name of the Beverage from the Console
             string name = Console.ReadLine();
             // On the next three lines we read volume, energy and sugar of teh Beverage per 100 ml
-            int volume = int.Parse(Console.ReadLine()); // per 100ml
+            int amount = int.Parse(Console.ReadLine()); // per 100ml
             int energy = int.Parse(Console.ReadLine());  // per 100ml
             int sugar = int.Parse(Console.ReadLine()); //  per 100ml
             // We calculate the energy
