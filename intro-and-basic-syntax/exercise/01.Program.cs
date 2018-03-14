@@ -10,7 +10,7 @@ namespace DebitCardNumber
     {
         static void Main(string[] args)
         {	
-			//First we parse the text from the console to int
+            // On the next four lines, we are reading integer numbers from the console
             int n1 = int.Parse(Console.ReadLine());
             int n2 = int.Parse(Console.ReadLine());
             int n3 = int.Parse(Console.ReadLine());
